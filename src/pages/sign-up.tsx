@@ -65,7 +65,7 @@ const RegisterPage = () => {
 
                             <Buttons>
                                 <Button type="register" label="Sign-up" color="info" />
-                                <Button href="/dashboard" label="Home" color="info" outline />
+                                <Button href="/" label="Go back" color="info" outline />
                             </Buttons>
                         </Form>
                     </Formik>
