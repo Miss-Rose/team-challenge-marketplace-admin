@@ -2,7 +2,10 @@ import useSWR from 'swr'
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 export const useSampleClients = () => {
-  const { data, error } = useSWR('/team-challenge-marketplace-admin/data-sources/clients.json', fetcher)
+  const { data, error } = useSWR(
+    '/team-challenge-marketplace-admin/data-sources/clients.json',
+    fetcher
+  )
 
   return {
     clients: data?.data ?? [],
@@ -12,7 +15,10 @@ export const useSampleClients = () => {
 }
 
 export const useSampleTransactions = () => {
-  const { data, error } = useSWR('/team-challenge-marketplace-admin/data-sources/history.json', fetcher)
+  const { data, error } = useSWR(
+    '/team-challenge-marketplace-admin/data-sources/history.json',
+    fetcher
+  )
 
   return {
     transactions: data?.data ?? [],

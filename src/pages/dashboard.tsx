@@ -46,7 +46,6 @@ const DashboardPage = () => {
         <title>{getPageTitle('Dashboard')}</title>
       </Head>
       <SectionMain>
-
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 mb-6">
           <CardBoxWidget
             trendLabel="12%"

@@ -1,4 +1,4 @@
-import { mdiAccount, mdiBallotOutline, mdiMail, mdiUpload } from '@mdi/js'
+import { mdiAccount, mdiMail, mdiUpload } from '@mdi/js'
 import { Field, Form, Formik } from 'formik'
 import Head from 'next/head'
 import { ReactElement } from 'react'
@@ -13,7 +13,6 @@ import FormFilePicker from '../components/Form/FilePicker'
 import LayoutAuthenticated from '../layouts/Authenticated'
 import SectionMain from '../components/Section/Main'
 import SectionTitle from '../components/Section/Title'
-import SectionTitleLineWithButton from '../components/Section/TitleLineWithButton'
 import { getPageTitle } from '../config'
 
 const FormsPage = () => {
@@ -24,7 +23,6 @@ const FormsPage = () => {
       </Head>
 
       <SectionMain>
-
         <CardBox>
           <Formik
             initialValues={{

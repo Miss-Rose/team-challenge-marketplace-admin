@@ -1,10 +1,4 @@
-import {
-  mdiAccount,
-  mdiAsterisk,
-  mdiFormTextboxPassword,
-  mdiMail,
-  mdiUpload,
-} from '@mdi/js'
+import { mdiAccount, mdiAsterisk, mdiFormTextboxPassword, mdiMail, mdiUpload } from '@mdi/js'
 import { Formik, Form, Field } from 'formik'
 import Head from 'next/head'
 import type { ReactElement } from 'react'
@@ -18,7 +12,6 @@ import FormField from '../components/Form/Field'
 import FormFilePicker from '../components/Form/FilePicker'
 import LayoutAuthenticated from '../layouts/Authenticated'
 import SectionMain from '../components/Section/Main'
-import SectionTitleLineWithButton from '../components/Section/TitleLineWithButton'
 import CardBoxUser from '../components/CardBox/User'
 import type { UserForm } from '../interfaces'
 import { getPageTitle } from '../config'
@@ -40,7 +33,6 @@ const ProfilePage = () => {
       </Head>
 
       <SectionMain>
-
         <CardBoxUser className="mb-6" />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

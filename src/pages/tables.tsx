@@ -1,7 +1,6 @@
-import { mdiMonitorCellphone, mdiTableBorder, mdiTableOff } from '@mdi/js'
+import { mdiMonitorCellphone, mdiTableOff } from '@mdi/js'
 import Head from 'next/head'
 import React, { ReactElement } from 'react'
-import Button from '../components/Button'
 import CardBox from '../components/CardBox'
 import CardBoxComponentEmpty from '../components/CardBox/Component/Empty'
 import LayoutAuthenticated from '../layouts/Authenticated'
@@ -18,7 +17,6 @@ const TablesPage = () => {
         <title>{getPageTitle('Tables')}</title>
       </Head>
       <SectionMain>
-
         <NotificationBar color="info" icon={mdiMonitorCellphone}>
           <b>Responsive table.</b> Collapses on mobile
         </NotificationBar>

@@ -21,9 +21,9 @@ const StyleSelectPage = () => {
   const handleStylePick = (e: React.MouseEvent, mode: string) => {
     e.preventDefault()
     if (mode === 'sign-in') {
-      router.push('/sign-in');
+      router.push('/sign-in')
     } else {
-      router.push('/sign-up');
+      router.push('/sign-up')
     }
   }
 
