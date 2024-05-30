@@ -58,7 +58,7 @@ const LoginPage = () => {
               <Divider />
 
               <Buttons>
-                <Button type="submit" label="Login" color="info" />
+                <Button type="submit" label="Sign-in" color="info" />
                 <Button href="/dashboard" label="Home" color="info" outline />
               </Buttons>
             </Form>

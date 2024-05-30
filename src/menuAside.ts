@@ -9,7 +9,6 @@ import {
   mdiTelevisionGuide,
   mdiResponsive,
   mdiPalette,
-  mdiVuejs,
 } from '@mdi/js'
 import { MenuAsideItem } from './interfaces'
 
